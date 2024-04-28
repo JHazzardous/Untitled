@@ -3,6 +3,12 @@
         padding: 10;
     }
 
+html {
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+        font-size: 1rem;
+    }
+
 .nav {
     position: fixed;
     top: 0;
@@ -10,7 +16,7 @@
     width: 100%;
     background: orange;
     margin-bottom:
-      }
+    }
 
 .nav-options {
     display:inline-block;
@@ -18,15 +24,14 @@
 }
 
 
-
-
+#Dbutton {
+    background-image:repeating-radial-gradient(#2ee8f2, #fabd39 );
+    
+    
+}
       
 
-html {
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    font-size: 1rem;
-}
+
 
 p {
     border: 2px solid black;
@@ -88,7 +93,8 @@ h6 {
     color: #ffffff;
     margin: 30px auto 0px;
     padding: 10px;
-  }
+    background-image:repeating-linear-gradient(white, black, red);
+  } 
   
   #controls,
   #stats {
@@ -109,7 +115,7 @@ h6 {
     padding-right: 10px;
   }
   
-  button {
+  .game-button {
     cursor: pointer;
     color: #0a0a23;
     background-color: #feac32;
