@@ -4,17 +4,20 @@
     }
 
 .nav {
-    display: flex;
-    justify-content: flex-end;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     background: orange;
-    box-shadow: 0 2px 0 rgba(0, 222, 0, 0.4);
-    z-index: 10;
-    text-align: center;
+    margin-bottom:
       }
+
+.nav-options {
+    display:inline-block;
+    margin-right: 50px;
+}
+
+
 
 
       
@@ -34,6 +37,9 @@ p {
 
 h1 {
     color:red;
+    margin-top:75px;
+    
+
 }
 
 fieldset {
@@ -61,3 +67,52 @@ label {
 h6 {
     color:white;
 }
+
+
+
+
+
+
+
+
+#text {
+    background-color: #0a0a23;
+    color: #ffffff;
+    padding: 10px;
+  }
+  
+  #game {
+    max-width: 500px;
+    max-height: 400px;
+    background-color: #ffffff;
+    color: #ffffff;
+    margin: 30px auto 0px;
+    padding: 10px;
+  }
+  
+  #controls,
+  #stats {
+    border: 1px solid #0a0a23;
+    padding: 5px;
+    color: #0a0a23;
+  }
+  
+  #monsterStats {
+    display: none;
+    border: 1px solid #0a0a23;
+    padding: 5px;
+    color: #ffffff;
+    background-color: #c70d0d;
+  }
+  
+  .stat {
+    padding-right: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+    color: #0a0a23;
+    background-color: #feac32;
+    background-image: linear-gradient(#fecc4c, #ffac33);
+    border: 3px solid #feac32;
+  }
